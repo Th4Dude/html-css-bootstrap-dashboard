@@ -9,14 +9,14 @@ main{
 }
 
 .a_side{
-    /* width: auto; */
-    background-color: blueviolet;
+    width: auto;
+    background-color: #051e34;
     height:calc(100vh - 4.375rem );
 }
 
 .container_right_side{
     /* width: auto; */
-    background-color: cadetblue;
+    background-color: rgb(219, 226, 226);
     height:calc(100vh - 4.375rem );
 }
 
@@ -26,4 +26,9 @@ main{
 
 .bottom_container{
     height: 10%;
+}
+
+.img_header{
+    height: 40px;
+    width: 40px;
 }
