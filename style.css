@@ -1,5 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .container_header_main{
-    background-color: aqua;
     height: 4.375rem;
 }
 
@@ -9,14 +11,14 @@ main{
 }
 
 .a_side{
-    width: auto;
+    width: 10%;
     background-color: #051e34;
     height:calc(100vh - 4.375rem );
 }
 
 .container_right_side{
-    /* width: auto; */
-    background-color: rgb(219, 226, 226);
+    width: 90%;
+    background-color: rgb(7, 163, 163);
     height:calc(100vh - 4.375rem );
 }
 
@@ -28,7 +30,18 @@ main{
     height: 10%;
 }
 
-.img_header{
+.img_header01{
+    height: 40px;
+    width: 120px;
+}
+
+.img_header02{
     height: 40px;
     width: 40px;
+}
+
+.top_main_container{
+    background-color: #1b72e8;
+    width: 100%;
+    margin: 0 auto;
 }

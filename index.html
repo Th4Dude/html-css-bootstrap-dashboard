@@ -16,6 +16,10 @@
 
     <!-- font awesome -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
     <!-- Bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,75 +32,155 @@
 </head>
 
 <body>
-    <header class="container-fluid container_header_main">
 
-        <div class="row">
-            <div class="col-2">
-                <div class="img_header d-none d-lg-block "><img src="img/logo.svg" alt=""></div>
-                <div><img class="img_header d-md-block d-lg-none  " src="img/mobile-logo.png" alt=""></div>
+    <!-- Header -->
+
+    <header class="container-fluid container_header_main py-3 ">
+
+        <div class="row ">
+
+            <div class="col-2 d-flex ">
+
+                <div><img class="img_header01 d-none d-lg-block " src="img/logo.svg" alt=""></div>
+                <div><img class="img_header02 d-md-block d-lg-none   " src="img/mobile-logo.png" alt=""></div>
             </div>
-            <div class="col-8">2</div>
-            <div class="col-2">3</div>
+
+            <div class="col-8">
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-success border-0" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input class="form-control me-2" type="search"
+                        placeholder="Prova a cercare: Topogigio è presente alle lezioni?" aria-label="Search">
+                </form>
+            </div>
+
+            <div class="col-2 d-flex justify-content-end ">
+
+                <div class="d-flex px-2 d-none d-lg-block align-items-center">
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="d-flex align-items-center px-2 d-none d-lg-block">
+                    <a href=""><i class="fa-solid fa-circle-question"></i></a>
+                </div>
+                <div class="d-flex align-items-center px-2 d-none d-lg-block">
+                    <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <div class="dropdown d-flex align-items-center px-2">
+                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href=""><i class="fa-solid fa-bell"></i></a>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Cucu</a></li>
+                        <li><a class="dropdown-item" href="#">Tete</a></li>
+                        <li><a class="dropdown-item" href="#">Trovato!</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
 
     </header>
 
+    <!-- Header -->
+
     <main>
 
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-1 a_side">
                     <div class="top_container">
-                        <div class="d-flex">
-                            <div>
+                        <div class="d-flex py-2">
+                            <div class="">
                                 <a class="link-light" href=""><i class="fa-solid fa-house"></i></a>
                             </div>
                             <div class="d-none d-lg-block ">
                                 <a class="link-light text-decoration-none px-2" href="">Home</a>
                             </div>
                         </div>
-                        <div class="d-flex">
+                        <div class="d-flex py-2">
                             <div>
                                 <a class="link-light" href=""><i class="fa-solid fa-chart-simple"></i></a>
                             </div>
                             <div class="d-none d-lg-block">
-                               <a class="link-light text-decoration-none px-2" href="">Stats</a>
+                                <a class="link-light text-decoration-none px-2" href="">Stats</a>
                             </div>
-                        </div>    
-                                            
-                        <div class="d-flex">
+                        </div>
+
+                        <div class="d-flex py-2">
                             <div>
                                 <a class="link-light" href=""><i class="fa-solid fa-signal"></i></a>
                             </div>
                             <div class="d-none d-lg-block">
-                               <a class="link-light text-decoration-none px-2" href="">Signals</a> 
+                                <a class="link-light text-decoration-none px-2" href="">Signals</a>
                             </div>
                         </div>
                     </div>
                     <div class="bottom_container d-flex ">
-                            <div>
-                                <a class="link-light" href=""><i class="fa-solid fa-gear"></i></a>
-                            </div>
-                            <div class="d-none d-lg-block">
-                               <a class="link-light text-decoration-none px-2" href="">Admin</a> 
-                            </div>
+                        <div>
+                            <a class="link-light" href=""><i class="fa-solid fa-gear"></i></a>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <a class="link-light text-decoration-none px-2" href="">Admin</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-11 container_right_side">s</div>
+                <div class="col-11 container_right_side">
+
+                    <div class="top_main_container ">
+
+                        <div class="row top_main_container ">
+
+                            <div class="col-12"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                                cupiditate nisi, cum ipsa natus suscipit, dolorum deleniti praesentium reiciendis maxime
+                                et quae corporis officiis sequi non repellendus rerum. Consequatur, labore. Lorem ipsum
+                                dolor sit amet consectetur, adipisicing elit. Consequuntur ut totam deserunt, iure minus
+                                libero corrupti ipsam molestias possimus exercitationem magni aliquid expedita veritatis
+                                perferendis reprehenderit quam nesciunt harum maxime! Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Voluptas quae, facilis sapiente labore rerum
+                                necessitatibus explicabo eligendi optio, repudiandae quasi eos qui asperiores. Delectus
+                                in fuga, dolorem vero ad consequuntur?</div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">1</div>
+                            <div class="col-6">2</div>
+                        </div>
+                        
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
             </div>
         </div>
-        
-        
-        
-        
+
+
+
+
 
 
     </main>
-    
 
 
-    
+
+
 
 
 
