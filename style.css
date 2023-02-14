@@ -1,0 +1,19 @@
+.container_header_main{
+    background-color: aqua;
+    height: 4.375rem;
+}
+
+main{
+    background-color: antiquewhite;
+    height:calc(100vh - 4.375rem );
+}
+
+.a_side{
+    background-color: blueviolet;
+    height: calc(100vh - 4.375rem ) ;
+}
+
+.container_right_side{
+    background-color: cadetblue;
+    height: calc(100vh - 4.375rem )
+}
