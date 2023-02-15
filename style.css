@@ -1,17 +1,8 @@
 
-/* Common */
+/* Common --------------------------*/
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-/* Common */
-
-
-/* Main */
-
-.container_header_main {
-    height: 4.375rem;
 }
 
 main {
@@ -19,15 +10,27 @@ main {
     overflow-y: auto;
 }
 
-.a_side {
+/* Common *--------------------------/
 
-    background-color: #051e34;
-    height: calc(100vh - 4.375rem);
+
+/* Main ----------------------------*/
+
+
+/* Header -------------------------- */
+
+.container_header_main {
+    height: 4.375rem;
 }
 
-.container_right_side {
+/* Header -------------------------- */
+
+
+
+/* Aside ----------------------------*/
+
+.a_side {
+    background-color: #051e34;
     height: calc(100vh - 4.375rem);
-    overflow: auto;
 }
 
 .top_container {
@@ -48,6 +51,15 @@ main {
     width: 40px;
 }
 
+/* Aside ------------------------------*/
+
+/* Container right side --------------- */
+
+.container_right_side {
+    height: calc(100vh - 4.375rem);
+    overflow: auto;
+}
+
 .top_main_container {
     background-color: #1b72e8;
     color: white;
@@ -57,9 +69,55 @@ main {
     color: orange;
 }
 
+/* Img-stat */
+
 .img_card{
     max-width: 34.375rem;
     max-height: 16.25rem
 }
 
+/* Img-stat */
+
+/* Buttons Table */
+
+.btn-circle.btn-xl {
+    width: 30px;
+    height: 30px;
+    padding: .125rem .125rem;
+    border-radius: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-state.btn-x2 {
+    width: 60px;
+    height: 30px;
+    padding: .125rem .125rem;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Buttons Table */
+
+/* Container right side --------------- */
+
 /* Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

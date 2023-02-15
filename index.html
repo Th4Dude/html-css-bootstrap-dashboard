@@ -120,19 +120,19 @@
                                 <h6>Nuovo studente</h6>
                             </div>
 
-                                <!-- Button-offcanvas -->
+                            <!-- Button-offcanvas -->
 
                             <div>
                                 <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample"
                                     role="button" aria-controls="offcanvasExample">
-                                    <i class="fa-solid fa-plus fs-2"></i>
+                                    <i class="fa-solid fa-plus fs-1"></i>
                                 </a>
 
                                 <!-- Button-offcanvas -->
 
                                 <!-- OffCanvas -->
 
-                                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
                                     aria-labelledby="offcanvasExampleLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci nuovo studente
@@ -180,8 +180,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <label for="exampleInputPassword1"
-                                                        class="form-label">Conferma Password</label>
+                                                    <label for="exampleInputPassword1" class="form-label">Conferma
+                                                        Password</label>
                                                     <input type="password" class="form-control"
                                                         id="exampleInputPassword1">
                                                 </div>
@@ -274,15 +274,127 @@
 
                                 <div class="card ">
                                     <div class="card-header">
-                                        Prossime Classi
+                                        <h4>Prossime Classi</h4>
                                     </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Special title treatment</h5>
-                                        <p class="card-text">With supporting text below as a natural lead-in to
-                                            additional
-                                            content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 75</th>
+                                                <td>15 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-success btn-state btn-x2">Done</button></td>
+                                               <td>
+                                                   <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                   <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                               </td>
+
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 76</th>
+                                                <td>16 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-success btn-state btn-x2 ">Done</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 77</th>
+                                                <td>17 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-warning btn-state btn-x2">Process</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 78</th>
+                                                <td>18 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-success btn-state btn-x2">Done</button></td>
+                                               <td>
+                                                   <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                   <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 79</th>
+                                                <td>19 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-danger btn-state btn-x2">Failed</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 80</th>
+                                                <td>20 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-success btn-state btn-x2">Done</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 81</th>
+                                                <td>21 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-danger btn-state btn-x2">Danger</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"><button type="button"
+                                                        class="btn btn-danger btn-circle btn-xl"><i
+                                                            class="fa-solid fa-code "></i></button> Classe 82</th>
+                                                <td>22 Febbraio 2021</td>
+                                                <td>20%</td>
+                                                <td><button type="button"
+                                                        class="btn btn-success btn-state btn-x2">Done</button></td>
+                                                <td>
+                                                    <span class="px-1"><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button></span>
+                                                    <span><button type="button"class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
 
                                 <!-- Tabella Classi -->
@@ -292,7 +404,7 @@
 
                                 <div class="py-3">
                                     <div class="card col-12">
-                                        <div class="card-header">F.A.Q</div>
+                                        <div class="card-header"><h4>F.A.Q</h4></div>
                                         <div class="accordion" id="accordionExample">
                                             <div class="accordion-item">
                                                 <h2 class="accordion-header" id="headingOne">
@@ -391,7 +503,7 @@
 
                             <div class=" col-12 col-lg-4 py-3">
                                 <div class="card">
-                                    <div class="card-header">TODO</div>
+                                    <div class="card-header"><h4>TODO</h4></div>
                                     <div class="card-body">
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" value=""
@@ -448,35 +560,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     </main>
 
