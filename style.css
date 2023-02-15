@@ -11,14 +11,12 @@ main{
 }
 
 .a_side{
-    width: 10%;
+    
     background-color: #051e34;
     height:calc(100vh - 4.375rem );
 }
 
 .container_right_side{
-    width: 90%;
-    background-color: rgb(7, 163, 163);
     height:calc(100vh - 4.375rem );
 }
 
@@ -42,4 +40,9 @@ main{
 
 .top_main_container{
     background-color: #1b72e8;
+    color: white;
+}
+
+.fa-bell{
+    color: orange;
 }
