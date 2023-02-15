@@ -113,11 +113,134 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col container_right_side">
                     <div class="row  top_main_container ">
-                        <div class="col-6">
-                            <div class="d-flex pt-3">
+                        <div class="col-12 col-md-3 order-md-3 d-flex align-items-center py-1 ">
+                            <div class="px-2">
+                                <h6>Nuovo studente</h6>
+                            </div>
+
+                                <!-- Button-offcanvas -->
+
+                            <div>
+                                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                                    role="button" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-plus fs-2"></i>
+                                </a>
+
+                                <!-- Button-offcanvas -->
+
+                                <!-- OffCanvas -->
+
+                                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                    aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci nuovo studente
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div>
+                                            <form class="row g-3">
+                                                <div class="col-lg-6">
+                                                    <label for="validationDefault01" class="form-label">Nome</label>
+                                                    <input type="text" class="form-control" id="validationDefault01"
+                                                        value="Mark" required>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <label for="validationDefault02" class="form-label">Cognome</label>
+                                                    <input type="text" class="form-control" id="validationDefault02"
+                                                        value="Otto" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="validationDefaultUsername"
+                                                        class="form-label">Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="text" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="validationDefaultUsername" class="form-label">Conferma
+                                                        Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                        <input type="text" class="form-control"
+                                                            id="validationDefaultUsername"
+                                                            aria-describedby="inputGroupPrepend2" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="exampleInputPassword1"
+                                                        class="form-label">Conferma Password</label>
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1">
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <label for="validationDefault03"
+                                                        class="form-label">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="validationDefault03"
+                                                        required>
+                                                </div>
+
+
+                                                <div class="col-md-6">
+                                                    <label for="validationDefault03" class="form-label">Città</label>
+                                                    <input type="text" class="form-control" id="validationDefault03"
+                                                        required>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validationDefault04" class="form-label">Nazione</label>
+                                                    <select class="form-select" id="validationDefault04" required>
+                                                        <option selected disabled value="">Choose...</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <label for="validationDefault05" class="form-label">Cap</label>
+                                                    <input type="text" class="form-control" id="validationDefault05"
+                                                        required>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <input type="file" class="form-control" aria-label="file example"
+                                                        required>
+                                                    <div class="invalid-feedback">Example invalid form file feedback
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="invalidCheck2" required>
+                                                        <label class="form-check-label" for="invalidCheck2">
+                                                            Selezione per proseguire
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-primary" type="submit">Salva</button>
+                                                    <button class="btn btn-warning" type="submit">Svuota</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- OffCanvas -->
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 order-md-1 ">
+                            <div class="d-flex align-items-center pt-3">
                                 <div>
                                     <h1>Boolean</h1>
                                 </div>
@@ -125,25 +248,22 @@
                                     <span class="badge text-bg-primary">Piano Blaze</span>
                                 </div>
                             </div>
-                            <div class="d-flex pb-3">
+                            <div class="d-flex align-items-center pb-3">
                                 <div><span class="badge text-bg-primary">3 app</span></div>
                                 <div><i class="fa-solid fa-angles-right"></i></div>
-                                <div><span class="badge  text-bg-primary">Boolean mobile app</span></div>
-                                <div><span class="badge text-bg-primary">Boolean web aspp</span></div>
-                                <div><span class="badge text-bg-primary">Boolean blog app</span></div>
+                                <div><span class="badge text-bg-primary d-md-block d-lg-none"><i
+                                            class="fa-solid fa-plus"></i></span></div>
+                                <div><span class="badge  text-bg-primary d-none d-lg-block">Boolean mobile app</span>
+                                </div>
+                                <div><span class="badge text-bg-primary d-none d-lg-block">Boolean web aspp</span></div>
+                                <div><span class="badge text-bg-primary d-none d-lg-block">Boolean blog app</span></div>
                             </div>
                         </div>
-                        <div class="col-4 ">
+                        <div class="col-12 col-md-3 order-md-2 py-4 ">
                             <div>
                                 <h6>Studenti online negli ultimi 30 minuti</h6>
                             </div>
-                            <div><span>125</span></div>
-                        </div>
-                        <div class="col-2 d-flex ">
-                            <div>
-                                <h6>Nuovo studente</h6>
-                            </div>
-                            <div>button</div>
+                            <div><span class="fs-2">125</span></div>
                         </div>
                     </div>
                     <div class="container-fluid">
@@ -306,7 +426,9 @@
                                         <img class="img_card" src="img/stats.jpeg" alt="">
                                         <div class="card-body">
                                             <h5 class="card-title">Utenti</h5>
-                                            <p class="card-text">Lista degli utenti attivi in piattaformanell'ultimomese</p></div>
+                                            <p class="card-text">Lista degli utenti attivi in piattaformanell'ultimomese
+                                            </p>
+                                        </div>
                                         <a href="#" class="btn btn-primary">Go somewhere</a>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Gennaio: 1200</li>
@@ -326,6 +448,35 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
     </main>
 
